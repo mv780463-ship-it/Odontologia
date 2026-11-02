@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5ef">
+  <meta name="description" content="Cuidado odontológico leve, próximo e pensado para você. Conheça a Gayve e agende sua consulta.">
+  <title>Gayve Odontologia | Seu sorriso, no seu tempo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">
+    <span>Um cuidado mais tranquilo começa por aqui.</span>
+    <a href="#agendar">Agende sua primeira consulta <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+  </div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#inicio" aria-label="Gayve Odontologia, início">
+      <span class="brand-symbol" aria-hidden="true"><i data-lucide="asterisk"></i></span>
+      <span>gayve<span class="wordmark-dot">.</span><small>ODONTOLOGIA</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+      <i data-lucide="menu" aria-hidden="true"></i>
+    </button>
+    <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+      <a href="#clinica">A clínica</a>
+      <a href="#tratamentos">Tratamentos</a>
+      <a href="#equipe">Nossa equipe</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a class="nav-appointment" href="#agendar">Agendar consulta <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> ODONTOLOGIA COM CALMA</p>
+        <h1>Seu sorriso merece um cuidado <em>leve.</em></h1>
+        <p class="hero-description">A gente acredita que ir ao dentista pode ser mais simples, acolhedor e do seu jeito. Vamos começar?</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#agendar">Marcar uma consulta <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+          <a class="text-link" href="#tratamentos">Conhecer tratamentos <i data-lucide="arrow-down-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="hero-note"><span class="note-avatars" aria-hidden="true"><b>G</b><b>+</b><b>♡</b></span><span>Um atendimento próximo,<br>do primeiro oi ao sorriso final.</span></div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Dentista acolhe paciente durante uma consulta" fetchpriority="high">
+        <div class="visual-tag"><i data-lucide="sparkles" aria-hidden="true"></i><span>Um sorriso<br>de cada vez.</span></div>
+        <span class="visual-caption">CUIDADO QUE VOCÊ SENTE</span>
+      </div>
+      <a class="scroll-cue" href="#clinica" aria-label="Descer para conhecer a clínica"><i data-lucide="arrow-down" aria-hidden="true"></i></a>
+    </section>
+
+    <section class="intro section-pad" id="clinica">
+      <div class="section-label"><span>01</span> UM JEITO MAIS GAYVE</div>
+      <div class="intro-body">
+        <h2>Você não é só mais um horário na agenda.</h2>
+        <p>Aqui, a conversa vem antes do tratamento. A gente escuta, explica cada passo e cuida do seu sorriso com atenção de verdade, sem pressa e sem julgamentos.</p>
+        <a class="text-link" href="#equipe">Prazer, somos a Gayve <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+      </div>
+      <div class="intro-stamp" aria-label="Cuidado com carinho, sempre"><span>cuidado</span><i data-lucide="heart" aria-hidden="true"></i><span>com carinho</span></div>
+    </section>
+
+    <section class="treatments section-pad" id="tratamentos">
+      <div class="section-heading">
+        <div><div class="section-label"><span>02</span> COMO PODEMOS AJUDAR</div><h2>Seu cuidado,<br><em>do seu jeito.</em></h2></div>
+        <p>Do check-up de rotina aos cuidados especializados. A gente encontra junto o melhor caminho para você.</p>
+      </div>
+      <div class="treatment-grid">
+        <a class="treatment-item" href="#agendar" data-service="Clínica geral">
+          <span class="treatment-icon"><i data-lucide="scan-face" aria-hidden="true"></i></span><span class="treatment-number">01</span>
+          <h3>Clínica geral</h3><p>Prevenção, avaliação e aquele cuidado que mantém tudo em dia.</p><span class="item-arrow"><i data-lucide="arrow-up-right" aria-hidden="true"></i></span>
+        </a>
+        <a class="treatment-item" href="#agendar" data-service="Limpeza e prevenção">
+          <span class="treatment-icon"><i data-lucide="sparkles" aria-hidden="true"></i></span><span class="treatment-number">02</span>
+          <h3>Limpeza e prevenção</h3><p>Um cuidado gentil para deixar sua saúde bucal sempre bem.</p><span class="item-arrow"><i data-lucide="arrow-up-right" aria-hidden="true"></i></span>
+        </a>
+        <a class="treatment-item" href="#agendar" data-service="Ortodontia">
+          <span class="treatment-icon"><i data-lucide="smile" aria-hidden="true"></i></span><span class="treatment-number">03</span>
+          <h3>Ortodontia</h3><p>Planos personalizados para alinhar seu sorriso com tranquilidade.</p><span class="item-arrow"><i data-lucide="arrow-up-right" aria-hidden="true"></i></span>
+        </a>
+        <a class="treatment-item" href="#agendar" data-service="Estética dental">
+          <span class="treatment-icon"><i data-lucide="sun" aria-hidden="true"></i></span><span class="treatment-number">04</span>
+          <h3>Estética dental</h3><p>Pequenos e grandes detalhes, sempre respeitando quem você é.</p><span class="item-arrow"><i data-lucide="arrow-up-right" aria-hidden="true"></i></span>
+        </a>
+        <a class="treatment-item" href="#agendar" data-service="Implantes">
+          <span class="treatment-icon"><i data-lucide="plus" aria-hidden="true"></i></span><span class="treatment-number">05</span>
+          <h3>Implantes</h3><p>Conforto e segurança em cada etapa do seu tratamento.</p><span class="item-arrow"><i data-lucide="arrow-up-right" aria-hidden="true"></i></span>
+        </a>
+        <a class="treatment-item treatment-featured" href="#agendar" data-service="Quero conversar">
+          <span class="treatment-icon"><i data-lucide="messages-square" aria-hidden="true"></i></span><span class="treatment-number">06</span>
+          <h3>Não sabe por onde começar?</h3><p>Sem problema. A primeira conversa é justamente pra isso.</p><span class="item-arrow"><i data-lucide="arrow-up-right" aria-hidden="true"></i></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="care-band" aria-label="Nosso compromisso">
+      <span>SEM PRESSA.</span><i data-lucide="asterisk" aria-hidden="true"></i><span>SEM JULGAMENTOS.</span><i data-lucide="asterisk" aria-hidden="true"></i><span>COM MUITO CUIDADO.</span>
+    </section>
+
+    <section class="team section-pad" id="equipe">
+      <div class="team-image"><img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="Profissional de odontologia em consultório claro" loading="lazy"></div>
+      <div class="team-copy"><div class="section-label"><span>03</span> GENTE QUE CUIDA DE GENTE</div><h2>Conhecimento técnico.<br><em>Olhar humano.</em></h2><p>Uma equipe atenta, que explica sem complicar e respeita seu tempo, seus limites e suas escolhas. Cada plano de cuidado é feito em conjunto com você.</p><a class="button button-outline" href="#agendar">Venha conhecer <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+      <div class="team-note"><i data-lucide="heart" aria-hidden="true"></i> Aqui, você pode perguntar tudo.</div>
+    </section>
+
+    <section class="booking section-pad" id="agendar">
+      <div class="booking-intro"><div class="section-label"><span>04</span> SEU PRÓXIMO PASSO</div><h2>Vamos marcar<br><em>um sorriso?</em></h2><p>Escolha o melhor dia e horário. A gente confirma tudo com você pelo WhatsApp.</p><div class="booking-contact"><i data-lucide="clock-3" aria-hidden="true"></i><span>Segunda a sexta, 8h às 19h<br>Sábado, 8h às 13h</span></div><div class="booking-contact"><i data-lucide="map-pin" aria-hidden="true"></i><span>Rua das Flores, 123 · Centro<br>Sua cidade, SP</span></div></div>
+      <form class="booking-form" id="booking-form">
+        <div class="form-heading"><span>AGENDAMENTO</span><span>Rápido e sem compromisso</span></div>
+        <label for="patient-name">Como podemos te chamar?</label>
+        <input id="patient-name" name="name" type="text" autocomplete="name" placeholder="Seu nome" required>
+        <div class="form-row"><div><label for="patient-phone">Seu WhatsApp</label><input id="patient-phone" name="phone" type="tel" autocomplete="tel" placeholder="(11) 99999-9999" required></div><div><label for="patient-service">O que você precisa?</label><select id="patient-service" name="service" required><option value="" disabled selected>Escolha uma opção</option><option>Primeira consulta</option><option>Clínica geral</option><option>Limpeza e prevenção</option><option>Ortodontia</option><option>Estética dental</option><option>Implantes</option><option>Quero conversar</option></select></div></div>
+        <div class="form-row"><div><label for="appointment-date">Melhor dia</label><input id="appointment-date" name="date" type="date" required></div><div><label for="appointment-time">Melhor horário</label><select id="appointment-time" name="time" required><option value="" disabled selected>Escolha o horário</option></select></div></div>
+        <label for="patient-message">Quer contar mais alguma coisa? <span>(opcional)</span></label>
+        <textarea id="patient-message" name="message" rows="2" placeholder="Pode deixar aqui sua dúvida ou preferência"></textarea>
+        <button class="button button-dark form-submit" type="submit">Pedir agendamento <i data-lucide="arrow-up-right" aria-hidden="true"></i></button>
+        <p class="form-privacy"><i data-lucide="lock-keyhole" aria-hidden="true"></i> Seus dados são usados apenas para falar sobre sua consulta.</p>
+        <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="faq section-pad" id="duvidas">
+      <div><div class="section-label"><span>05</span> PODE PERGUNTAR</div><h2>Dúvidas de<br><em>primeira viagem?</em></h2><p>Se a resposta que procura não estiver aqui, chama a gente. Estamos por perto.</p><a class="text-link" href="#agendar">Falar com a equipe <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+      <div class="faq-list">
+        <details><summary>Tenho medo de dentista. Vocês podem me ajudar?<i data-lucide="plus" aria-hidden="true"></i></summary><p>Claro. Conte pra gente como se sente. Vamos no seu ritmo, explicar cada etapa e combinar juntos o que deixa você mais confortável.</p></details>
+        <details><summary>Como funciona a primeira consulta?<i data-lucide="plus" aria-hidden="true"></i></summary><p>É um momento para conversar, entender o que você precisa e fazer uma avaliação. Antes de qualquer tratamento, explicamos as opções e tiramos suas dúvidas.</p></details>
+        <details><summary>Posso remarcar se surgir um imprevisto?<i data-lucide="plus" aria-hidden="true"></i></summary><p>Sim. É só avisar a equipe pelo WhatsApp com antecedência e encontramos um novo horário juntos.</p></details>
+        <details><summary>Quais formas de pagamento são aceitas?<i data-lucide="plus" aria-hidden="true"></i></summary><p>As opções variam de acordo com o tratamento. A equipe explica tudo com transparência durante sua avaliação, sem surpresas.</p></details>
+      </div>
+    </section>
+
+    <section class="closing-cta"><span>Seu sorriso tem espaço aqui.</span><a href="#agendar" aria-label="Agendar consulta"><i data-lucide="arrow-up-right" aria-hidden="true"></i></a></section>
+  </main>
+
+  <footer class="site-footer" id="contato">
+    <a class="wordmark footer-brand" href="#inicio"><span class="brand-symbol" aria-hidden="true"><i data-lucide="asterisk"></i></span><span>gayve<span class="wordmark-dot">.</span><small>ODONTOLOGIA</small></span></a>
+    <div class="footer-contact"><span>VAMOS CONVERSAR?</span><a class="whatsapp-link" href="https://wa.me/5528992757243" target="_blank" rel="noopener noreferrer">+55 28 99275-7243 <i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div>
+    <div class="footer-address"><span>ONDE ESTAMOS</span><p>Rua das Flores, 123 · Centro<br>Sua cidade, SP</p></div>
+    <div class="footer-bottom"><span>© 2026 Gayve Odontologia</span><a href="#inicio">Voltar ao início ↑</a><span>Um cuidado mais leve.</span></div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/5528992757243" target="_blank" rel="noopener noreferrer" aria-label="Conversar com a Gayve pelo WhatsApp"><i data-lucide="message-circle" aria-hidden="true"></i><span>Fale com a gente</span></a>
+</body>
+</html>
